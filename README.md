@@ -10,4 +10,5 @@ Reference:
 License:
 
 * [Licensed under the terms of the Apache License, Version 2](http://www.apache.org/licenses/LICENSE-2.0)
+* "hybris-" and "sap-" prefixed images are IP of SAP SE
 

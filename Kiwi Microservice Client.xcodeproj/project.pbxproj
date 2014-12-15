@@ -202,6 +202,7 @@
 		FA5E244B1970289F00A27DBA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = net.loxal.kiwi;
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = loxal;
 				TargetAttributes = {
