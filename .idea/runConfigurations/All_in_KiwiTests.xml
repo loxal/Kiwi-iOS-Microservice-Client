@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="All in KiwiTests" type="OCUnitRunConfiguration" factoryName="XCTest/Kiwi" singleton="true" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Kiwi Microservice Client" TARGET_NAME="Kiwi Microservice ClientTests" CONFIG_NAME="Debug" SCHEME_NAME="All in KiwiTests" TEST_CLASS="KiwiTests" TEST_MODE="SUITE_TEST" XCODE_SKIPPED_TESTS_HASH_CODE="0">
+    <envs />
+    <RunnerSettings RunnerId="AppRunner" />
+    <ConfigurationWrapper RunnerId="AppRunner" />
+    <method />
+  </configuration>
+</component>
