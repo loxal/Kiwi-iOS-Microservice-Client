@@ -427,7 +427,7 @@
 		FA5E24761970289F00A27DBA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kiwi.app/Kiwi";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kiwi Microservice Client.app/Kiwi Microservice Client";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -448,7 +448,7 @@
 		FA5E24771970289F00A27DBA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kiwi.app/Kiwi";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kiwi Microservice Client.app/Kiwi Microservice Client";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
