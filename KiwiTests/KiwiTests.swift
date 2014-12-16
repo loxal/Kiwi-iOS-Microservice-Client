@@ -3,7 +3,7 @@
 import UIKit
 import XCTest
 
-class SloxTests: XCTestCase {
+class KiwiTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
