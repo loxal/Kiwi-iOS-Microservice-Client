@@ -14,7 +14,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FA5E24671970289F00A27DBA"
-               BuildableName = "Kiwi Microservice ClientTests"
+               BuildableName = "Kiwi Microservice ClientTests.xctest"
                BlueprintName = "Kiwi Microservice ClientTests"
                ReferencedContainer = "container:Kiwi Microservice Client.xcodeproj">
             </BuildableReference>
@@ -32,10 +32,12 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FA5E24671970289F00A27DBA"
-               BuildableName = "Kiwi Microservice ClientTests"
+               BuildableName = "Kiwi Microservice ClientTests.xctest"
                BlueprintName = "Kiwi Microservice ClientTests"
                ReferencedContainer = "container:Kiwi Microservice Client.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+            </SkippedTests>
          </TestableReference>
       </Testables>
    </TestAction>
