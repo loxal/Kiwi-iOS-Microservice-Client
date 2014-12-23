@@ -10,6 +10,8 @@
           <param name="iprInfoRunParam" value="&lt;iprInfo path-to-ipr=&quot;&quot; should-load-iml=&quot;true&quot; /&gt;" />
           <param name="jvmArgs" value="-Xmx256m" />
           <param name="target.jdk.home" value="%env.JDK_16%" />
+          <param name="teamcity.coverage.idea.includePatterns" value="net.loxal.*" />
+          <param name="teamcity.coverage.runner" value="IDEA" />
           <param name="teamcity.step.mode" value="default" />
         </parameters>
       </runner>
@@ -33,7 +35,15 @@
       <vcs-entry-ref root-id="Kiwi_iOS_Client" />
     </vcs-settings>
     <requirements />
-    <build-triggers />
+    <build-triggers>
+      <build-trigger id="vcsTrigger" type="vcsTrigger">
+        <parameters>
+          <param name="groupCheckinsByCommitter" value="true" />
+          <param name="perCheckinTriggering" value="true" />
+          <param name="quietPeriodMode" value="DO_NOT_USE" />
+        </parameters>
+      </build-trigger>
+    </build-triggers>
     <cleanup />
   </settings>
 </build-type>
