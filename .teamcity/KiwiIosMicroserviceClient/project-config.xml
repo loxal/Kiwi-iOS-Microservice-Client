@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" parent-id="Loxal" uuid="668a8442-a0e4-4700-9f50-7a4ddabf251e" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/9.0/project-config.xsd">
+  <name>Kiwi IOS Microservice Client</name>
+  <parameters />
+  <cleanup />
+</project>
+

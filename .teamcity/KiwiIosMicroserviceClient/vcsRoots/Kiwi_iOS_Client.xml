@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vcs-root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="511e3cb4-f9dc-4db5-97c0-655ad084f683" type="jetbrains.git" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/9.0/project-config.xsd">
+  <name>Kiwi iOS Client</name>
+  <param name="agentCleanFilesPolicy" value="ALL_UNTRACKED" />
+  <param name="agentCleanPolicy" value="ON_BRANCH_CHANGE" />
+  <param name="authMethod" value="PASSWORD" />
+  <param name="branch" value="refs/heads/master" />
+  <param name="ignoreKnownHosts" value="true" />
+  <param name="secure:password" value="zxx7869ff86a2d97de3073b2d1782c03519" />
+  <param name="submoduleCheckout" value="CHECKOUT" />
+  <param name="url" value="https://github.com/loxal/Kiwi-iOS-Microservice-Client.git" />
+  <param name="useAlternates" value="true" />
+  <param name="username" value="alexander.orlov@loxal.net" />
+  <param name="usernameStyle" value="USERID" />
+</vcs-root>
+
