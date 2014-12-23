@@ -19,12 +19,13 @@
         <parameters>
           <param name="arch" value="default" />
           <param name="buildActions" value="clean build" />
+          <param name="configuration" value="###default###" />
           <param name="customBuildOutputDir" value="build" />
           <param name="platform" value="default" />
           <param name="project" value="Kiwi Microservice Client.xcodeproj" />
-          <param name="runTests" value="true" />
           <param name="scheme" value="Kiwi Client" />
           <param name="sdk" value="default" />
+          <param name="target" value="###default###" />
           <param name="teamcity.step.mode" value="default" />
           <param name="useCustomBuildOutputDir" value="true" />
           <param name="xcode" value="4" />
