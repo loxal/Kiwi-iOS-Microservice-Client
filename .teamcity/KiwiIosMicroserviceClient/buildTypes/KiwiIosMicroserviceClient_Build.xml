@@ -22,7 +22,9 @@
         </parameters>
       </runner>
     </build-runners>
-    <vcs-settings />
+    <vcs-settings>
+      <vcs-entry-ref root-id="Kiwi_iOS_Client" />
+    </vcs-settings>
     <requirements />
     <build-triggers />
     <cleanup />
