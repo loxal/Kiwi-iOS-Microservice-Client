@@ -2,9 +2,6 @@
 <template xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="11592c4b-dbcc-420a-a338-d99ee44c91ab" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/9.0/project-config.xsd">
   <name>Build</name>
   <settings>
-    <disabled-settings>
-      <setting-ref ref="RUNNER_2" />
-    </disabled-settings>
     <parameters />
     <build-runners>
       <runner id="RUNNER_1" name="" type="JPS">
