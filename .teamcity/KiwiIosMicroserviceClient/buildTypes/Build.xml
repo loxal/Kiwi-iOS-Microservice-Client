@@ -3,18 +3,7 @@
   <name>Build</name>
   <settings>
     <parameters />
-    <build-runners>
-      <runner id="RUNNER_1" name="" type="JPS">
-        <parameters>
-          <param name="iprInfoRunParam" value="&lt;iprInfo path-to-ipr=&quot;&quot; should-load-iml=&quot;true&quot; /&gt;" />
-          <param name="jvmArgs" value="-Xmx256m" />
-          <param name="target.jdk.home" value="%env.JDK_16%" />
-          <param name="teamcity.coverage.idea.includePatterns" value="net.loxal.*" />
-          <param name="teamcity.coverage.runner" value="IDEA" />
-          <param name="teamcity.step.mode" value="default" />
-        </parameters>
-      </runner>
-    </build-runners>
+    <build-runners />
     <vcs-settings>
       <vcs-entry-ref root-id="Kiwi_iOS_Client" />
     </vcs-settings>
