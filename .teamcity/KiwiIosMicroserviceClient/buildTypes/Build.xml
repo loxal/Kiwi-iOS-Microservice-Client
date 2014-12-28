@@ -3,7 +3,13 @@
   <name>Build</name>
   <settings>
     <parameters />
-    <build-runners />
+    <build-runners>
+      <runner id="RUNNER_4" name="" type="Build">
+        <parameters>
+          <param name="teamcity.step.mode" value="default" />
+        </parameters>
+      </runner>
+    </build-runners>
     <vcs-settings>
       <vcs-entry-ref root-id="Kiwi_iOS_Client" />
     </vcs-settings>
