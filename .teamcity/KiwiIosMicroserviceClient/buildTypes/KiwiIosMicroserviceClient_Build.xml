@@ -2,49 +2,12 @@
 <build-type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="d29fff60-477b-4fd7-97b5-6deeba340f20" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/9.0/project-config.xsd">
   <name>Build</name>
   <description />
-  <settings>
+  <settings ref="Build">
     <parameters />
-    <build-runners>
-      <runner id="RUNNER_1" name="" type="JPS">
-        <parameters>
-          <param name="iprInfoRunParam" value="&lt;iprInfo path-to-ipr=&quot;&quot; should-load-iml=&quot;true&quot; /&gt;" />
-          <param name="jvmArgs" value="-Xmx256m" />
-          <param name="target.jdk.home" value="%env.JDK_16%" />
-          <param name="teamcity.coverage.idea.includePatterns" value="net.loxal.*" />
-          <param name="teamcity.coverage.runner" value="IDEA" />
-          <param name="teamcity.step.mode" value="default" />
-        </parameters>
-      </runner>
-      <runner id="RUNNER_2" name="" type="Xcode">
-        <parameters>
-          <param name="arch" value="default" />
-          <param name="buildActions" value="clean build" />
-          <param name="configuration" value="###default###" />
-          <param name="customBuildOutputDir" value="build" />
-          <param name="platform" value="default" />
-          <param name="project" value="Kiwi Microservice Client.xcodeproj" />
-          <param name="scheme" value="Kiwi Client" />
-          <param name="sdk" value="default" />
-          <param name="target" value="###default###" />
-          <param name="teamcity.step.mode" value="default" />
-          <param name="useCustomBuildOutputDir" value="true" />
-          <param name="xcode" value="4" />
-        </parameters>
-      </runner>
-    </build-runners>
-    <vcs-settings>
-      <vcs-entry-ref root-id="Kiwi_iOS_Client" />
-    </vcs-settings>
+    <build-runners order="RUNNER_1, RUNNER_2" />
+    <vcs-settings />
     <requirements />
-    <build-triggers>
-      <build-trigger id="vcsTrigger" type="vcsTrigger">
-        <parameters>
-          <param name="groupCheckinsByCommitter" value="true" />
-          <param name="perCheckinTriggering" value="true" />
-          <param name="quietPeriodMode" value="DO_NOT_USE" />
-        </parameters>
-      </build-trigger>
-    </build-triggers>
+    <build-triggers />
     <cleanup />
   </settings>
 </build-type>
