@@ -4,7 +4,24 @@
   <description />
   <settings ref="Build">
     <parameters />
-    <build-runners order="RUNNER_1, RUNNER_2" />
+    <build-runners order="RUNNER_1, RUNNER_2, RUNNER_3">
+      <runner id="RUNNER_3" name="New build step" type="Xcode">
+        <parameters>
+          <param name="arch" value="default" />
+          <param name="buildActions" value="clean build" />
+          <param name="configuration" value="###default###" />
+          <param name="customBuildOutputDir" value="build" />
+          <param name="platform" value="default" />
+          <param name="project" value="Kiwi Microservice Client.xcodeproj" />
+          <param name="scheme" value="Kiwi Client" />
+          <param name="sdk" value="default" />
+          <param name="target" value="###default###" />
+          <param name="teamcity.step.mode" value="default" />
+          <param name="useCustomBuildOutputDir" value="true" />
+          <param name="xcode" value="4" />
+        </parameters>
+      </runner>
+    </build-runners>
     <vcs-settings />
     <requirements />
     <build-triggers />
