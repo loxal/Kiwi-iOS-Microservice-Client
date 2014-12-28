@@ -4,7 +4,7 @@
   <description />
   <settings ref="Build">
     <parameters />
-    <build-runners order="RUNNER_5, RUNNER_3">
+    <build-runners order="RUNNER_5, RUNNER_1, RUNNER_3">
       <runner id="RUNNER_3" name="" type="Xcode">
         <parameters>
           <param name="arch" value="default" />
