@@ -3,14 +3,12 @@
   <name>Kiwi iOS Client</name>
   <param name="agentCleanFilesPolicy" value="ALL_UNTRACKED" />
   <param name="agentCleanPolicy" value="ON_BRANCH_CHANGE" />
-  <param name="authMethod" value="PASSWORD" />
+  <param name="authMethod" value="PRIVATE_KEY_DEFAULT" />
   <param name="branch" value="refs/heads/master" />
   <param name="ignoreKnownHosts" value="true" />
-  <param name="secure:password" value="zxx7869ff86a2d97de3073b2d1782c03519" />
   <param name="submoduleCheckout" value="CHECKOUT" />
-  <param name="url" value="https://github.com/loxal/Kiwi-iOS-Microservice-Client.git" />
+  <param name="url" value="git@github.com:loxal/Kiwi-iOS-Microservice-Client.git" />
   <param name="useAlternates" value="true" />
-  <param name="username" value="alexander.orlov@loxal.net" />
   <param name="usernameStyle" value="USERID" />
 </vcs-root>
 
